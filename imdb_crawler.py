@@ -1,9 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from pymongo import Connection
-from pymongo.errors import ConnectionFailure
-from bson.objectid import ObjectId
-import urllib
 
 """
 	Author : Kshitij Burman <kburman6@gmail.com>
@@ -237,6 +233,6 @@ class IMDBParser:
 
 
 i = IMDBParser()
-mov,human = i.parseMovie('tt22679938')
+mov,human = i.parseMovie('tt2267998')
 print mov
 print human
